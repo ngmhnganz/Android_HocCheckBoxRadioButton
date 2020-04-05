@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RadioButtonActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mời bạn bình chọn" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radTot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tốt" />
+
+        <RadioButton
+            android:id="@+id/radTamDuoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tạm Được" />
+
+        <RadioButton
+            android:id="@+id/radKhongTot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Không Tốt" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBinhChon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bình Chọn" />
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>

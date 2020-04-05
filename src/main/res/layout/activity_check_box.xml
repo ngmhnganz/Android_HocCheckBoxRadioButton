@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckBoxActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sở thích của bạn là gì?" />
+
+    <CheckBox
+        android:id="@+id/chkHocLapTrinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Học Lập Trình" />
+
+    <CheckBox
+        android:id="@+id/chkHocTiengAnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Học Tiếng Anh" />
+
+    <CheckBox
+        android:id="@+id/chkLamDuAn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Làm dự án" />
+
+    <Switch
+        android:id="@+id/switchXao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin này có xạo đó!" />
+
+    <Button
+        android:id="@+id/btnXacThuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xác thực thông tin" />
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
